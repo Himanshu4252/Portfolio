@@ -1,0 +1,13 @@
+.FirstPage{
+    height: 68vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.firstPageContainers{
+    width: 50%;
+    background-size: contain;
+}
