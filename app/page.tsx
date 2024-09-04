@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar/page";
 import FirstPage from "./components/FirstPage/page";
 import SecondPage from "./components/SecondPage/page";
 import ThirdPage from "./components/ThirdPage/page";
+import Fourthpage from "./components/FourthPage/page";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <FirstPage />
       <SecondPage />
       <ThirdPage />
+      <Fourthpage />
     </main>
   );
 }
