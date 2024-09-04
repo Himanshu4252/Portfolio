@@ -30,4 +30,17 @@
     -webkit-text-fill-color: transparent; 
     background-clip: text;
     color: transparent; 
+    border-right: 2px solid black; /* adds a cursor effect */
+  white-space: nowrap; 
+  overflow: hidden; 
+  animation: typing 3s steps(30) infinite, blink 1s step-end infinite;
 }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+  
