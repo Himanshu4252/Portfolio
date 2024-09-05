@@ -26,9 +26,7 @@
     }
 }
 @media (max-width:540px) {
-    .secondPageWrapper{
-        height: 60vh;
-    }
+
     .aboutMe{
         line-height: 30px;
         font-size: 18px;
