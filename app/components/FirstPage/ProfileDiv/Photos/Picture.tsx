@@ -5,7 +5,7 @@ import style from './style.module.css'
 
 const Picture = () => {
   return (
-    <div style={{position: 'relative' }}>
+    <div style={{position: 'relative' }} className={style.widthFixer}>
       <svg 
         id="sw-js-blob-svg" 
         viewBox="0 0 100 100" 

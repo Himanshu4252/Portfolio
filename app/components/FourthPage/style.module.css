@@ -44,3 +44,23 @@
     height: auto;
     width: 50%;
 }
+ @media (max-width: 600px) {
+    .skill{
+        height: 250px;
+        width: 200px;
+    }
+    .skillSection{
+        gap: 18px;
+        padding: 15px;
+    }
+ }
+ @media (max-width:460px) {
+    .skill{
+        height: 180px;
+        width: 150px;
+    }
+    .skillSection{
+        gap: 15px;
+        padding: 10px;
+    }
+ }

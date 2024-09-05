@@ -44,3 +44,28 @@
     50% { border-color: transparent }
   }
   
+@media (max-width: 914px) {
+  .hiText{
+    font-size: 25px;
+    line-height: 30px;
+}
+.Name{
+  font-size: 30px;
+  line-height: 35px;
+}
+.and{
+  font-size: 25px;
+  line-height: 30px;
+}
+.imDev{
+  font-size: 30px;
+  line-height: 35px;
+}
+}
+
+@media (max-width: 540px) {
+  .Text{
+    width: 280px;
+    height: 135px;
+}
+}

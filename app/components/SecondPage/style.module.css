@@ -1,6 +1,6 @@
 .secondPageWrapper{
     margin-top: 80px;
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -8,10 +8,31 @@
     justify-content: space-evenly;
     background-color: #91C499;
     color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .aboutDiv{
+    font-size: 30px;
     width: 70%;
 }
 .aboutMe{
+    font-size: 20px;
     line-height: 40px;
+    color: rgb(32, 32, 32);
+}
+@media (max-width:1200px) {
+    .secondPageWrapper{
+        margin-top:0;
+    }
+}
+@media (max-width:540px) {
+    .secondPageWrapper{
+        height: 60vh;
+    }
+    .aboutMe{
+        line-height: 30px;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
 }

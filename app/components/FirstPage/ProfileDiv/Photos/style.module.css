@@ -4,3 +4,15 @@
     top: 25% !important;
     left: 25% !important;
 }
+
+@media (max-width: 540px) {
+    .widthFixer{
+        height: 256px;
+        width: 260px;
+    }
+    .profilePhoto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -46,3 +46,20 @@
     height: 15px;
     width: auto;
 }
+
+@media (max-width: 510px) {
+    .navContent{
+        margin-top: 0;
+        z-index: 20;
+    }
+    .NavBtn{
+        width: 20%;
+        height: 65%;
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+}
+@media (max-width: 416px) {
+    
+}

@@ -5,10 +5,26 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 5%;
     background-color: black;
 }
 .firstPageContainers{
     width: 50%;
     background-size: contain;
+}
+@media (max-width: 540px) {
+    .FirstPage{
+        margin-bottom: -18px;
+        border:2px solid;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        gap: 1%;
+        
+    }
+    .firstPageContainers{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
