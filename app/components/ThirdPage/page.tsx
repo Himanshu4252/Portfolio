@@ -34,7 +34,7 @@ const ThirdPage = () => {
         </svg>
         </div>
         <div className={style.expertiseText}>
-        Created intuitive, visually stunning, and user-centric digital experiences. 
+        Created intuitive, visually stunning, and user centric digital experiences. 
         </div>
         </div>
     </div>
