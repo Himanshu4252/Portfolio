@@ -12,7 +12,7 @@ const ThirdPage = () => {
         </div>
 
         <div className={style.expertiseText}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, sunt vitae est voluptates a 
+        Enhances coding efficiency, enabling to craft scalable solutions. 
         </div>
         </div>
 
@@ -23,7 +23,7 @@ const ThirdPage = () => {
         </svg>
         </div>
         <div className={style.expertiseText}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, sunt vitae est voluptates a 
+        Enabled to craft innovative, scalable, and seamless digital experiences. 
         </div>
         </div>
 
@@ -34,7 +34,7 @@ const ThirdPage = () => {
         </svg>
         </div>
         <div className={style.expertiseText}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, sunt vitae est voluptates a 
+        Created intuitive, visually stunning, and user-centric digital experiences. 
         </div>
         </div>
     </div>
