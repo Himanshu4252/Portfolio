@@ -8,10 +8,12 @@
     gap: 5%;
     background-color: black;
 }
+
 .firstPageContainers{
     width: 50%;
     background-size: contain;
 }
+
 @media (max-width: 540px) {
     .FirstPage{
         margin-bottom: -18px;
